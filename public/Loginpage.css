@@ -1,0 +1,67 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form box */
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Input fields */
+input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background: #e8654a;
+}
